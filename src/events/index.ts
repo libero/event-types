@@ -1,4 +1,3 @@
-
 export interface ServiceStartedPayload {
   name: string;
   type: string;
@@ -12,8 +11,7 @@ export interface UserLoggedInPayload {
   result: string;
 }
 
-export enum LiberoEventType { 
-  serviceStartedIdentifier = 'libero:infra:audit:ServiceStarted',
-  userLoggedInIdentifier = 'libero:audit:user:LoggedIn',
-};
-
+export enum LiberoEventType {
+  serviceStartedIdentifier = "libero:infra:audit:ServiceStarted",
+  userLoggedInIdentifier = "libero:audit:user:LoggedIn"
+}

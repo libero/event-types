@@ -7,7 +7,7 @@
   "scripts": {
     "build": "tsc",
     "lint": "tslint --project tsconfig.json",
-    "prepublish": "tsc",
+    "prepublish": "yarn run tsc",
     "start:dev": "dotenv -e ../.env -- nodemon --watch 'src/**/*.ts' --ignore 'src/**/*.spec.ts' --exec 'ts-node' src/main.ts",
     "postinstall": "npm run build",
     "test": "tslint --project tsconfig.json"

@@ -1,6 +1,6 @@
 {
   "name": "@libero/event-types",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Event types sent by the Libero message bus",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

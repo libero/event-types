@@ -3,6 +3,7 @@ node_js:
 - 10.16.3
 deploy:
   provider: npm
+  skip_cleanup: true
   email: libero-npm@elifesciences.org
   api_key:
     secure: KQNWJ+ET3JxhA5mGdOUgOkB1nz7KENHxd/JTasJp0gvHc0aFWdmp+ODCbmp7Agc9xR87n3+LV81injeH4FHAzKUasPweLtobeqL1J3Zr3oM1YDkgC9Dxns74H8vjKygXY33KcFpG49F7WOVK1+5kRjyDkVRrk7SffW7m8fekBqm+OywOrQmP0usTO1rWUp/uKMfTR1Hw4e9zcV4lG8/1MYkzCYfGwrc0MOY5WPOuzhGDw6vSlP41JVZ7nPykadX0PIRUsqYVBtSXZae79Z+8EqQI6PejZbuqxtUsZtlLjzNbIX+o65MnAHNgmo7uE/S+gbEa8g/QoDk7Rx6nrqus0aoLVuA/ptnXSbSIBTZ0rW2PXno+CNUTi973DtWguG36JBZyGG5CFIG8r2jlg0JcPQx8jHAqMjFIZ38qPMT7VoFcnbvZ3Sdc4JzbBs25sMrJjRt6Gn+8L/7gvCA3QYcNpWjiuFHFmlVVZWkbhL9MY/3p736mm5A0zCRF+yU1f6mEsFGC+bNnnqN34L46+OVEHWFO37z2TwoitvmNmJYigSjqDpJdFVpkIfOyJMgNir1zcmJ1eNLdJa/+kAXRrzjXoLvMKR1a0/Jr/9rC36FrLBjLYuu/fe+CIQ1PmwHW8oVuzTW0VyNIBvBwOBBV4WLptEU4x0gS8+Ea4UdeI/pPYRM=

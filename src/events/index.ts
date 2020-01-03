@@ -4,9 +4,7 @@ export interface ServiceStartedPayload {
 }
 
 export interface UserLoggedInPayload {
-    name: string;
     userId: string;
-    email: string;
     timestamp: Date;
     result: string;
 }

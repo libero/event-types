@@ -1,16 +1,18 @@
 {
   "name": "@libero/event-types",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Event types sent by the Libero message bus",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "lint": "eslint --ext .js,.ts src/"
+    "lint": "eslint --ext .js,.ts src/",
+    "test": "jest /src"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "yarn lint"
+      "pre-commit": "yarn lint",
+      "pre-push": "yarn test"
     }
   },
   "repository": {
@@ -22,7 +24,9 @@
   "publishConfig": {
     "access": "public"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@libero/event-bus": "^0.1.4"
+  },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^2.8.0",
     "@typescript-eslint/parser": "^2.8.0",

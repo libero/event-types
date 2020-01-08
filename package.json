@@ -6,7 +6,8 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "lint": "eslint --ext .js,.ts src/"
+    "lint": "eslint --ext .js,.ts src/",
+    "test": "jest /src"
   },
   "husky": {
     "hooks": {
@@ -23,7 +24,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@libero/event-bus": "^0.1.4"
+    "@libero/event-bus/Event": "^0.1.4"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^2.8.0",
